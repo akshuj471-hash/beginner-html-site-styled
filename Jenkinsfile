@@ -2,7 +2,7 @@ pipeline {
     agent { label 'k8s-master' }
 
     environment {
-        IMAGE_NAME = "akshuj471/website"
+        IMAGE_NAME = "akshuja2026/website"
         IMAGE_TAG  = "latest"
     }
 
